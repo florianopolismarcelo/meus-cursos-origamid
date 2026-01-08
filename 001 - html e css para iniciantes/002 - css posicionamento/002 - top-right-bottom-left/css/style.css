@@ -1,0 +1,14 @@
+span {
+  display: inline-block;
+  background: #ddd;
+}
+
+span {
+  /* padding: 30px; */
+  /* padding: 20px 40px; */
+  padding: 40px 100px 200px 10px; /* top | right | bottom | left */
+  /*  border: 10px solid black; Coloca a borda para todos os lados */
+  border-width: 5px 7px 9px 12px; /* top | right | bottom | left */
+  border-style: solid dashed dotted double;
+  border-color: red green blue yellow;
+}
