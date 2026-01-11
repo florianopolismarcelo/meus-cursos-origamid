@@ -1,0 +1,43 @@
+body {
+  font-family: Arial;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin-top: 0px;
+}
+
+.comprar {
+  background: #a8f;
+  color: #103;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.item {
+  background: #f7f7f7;
+  border: 1px solid #e7e7e7;
+  padding: 20px;
+  border-radius: 4px;
+  display: grid;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto; /*coluna é de acordo ao conteudo */
+  gap: 20px;
+  justify-content: space-around; /* Distribui os itens com espaçamento ao redor */
+  /* justify-content: space-evenly; */ /* Distribui os itens com espaçamento igual entre eles */
+  /* justify-content: flex-start; */ /* Alinha os itens ao início do contêiner */
+  /* justify-content: flex-end; */ /* Alinha os itens ao final do contêiner */
+  /* justify-content: start; */ /* Alinha os itens ao início do contêiner */
+  /* justify-content: end; */ /* Alinha os itens ao final do contêiner */
+  /* justify-content: left; */ /* Alinha os itens à esquerda do contêiner */
+  /* justify-content: right; */ /* Alinha os itens à direita do contêiner */
+  /* justify-content: stretch; */ /* Estica os itens para preencher todo o espaço disponível */
+  /* justify-content: space-around; */ /* Distribui os itens com*/
+}
