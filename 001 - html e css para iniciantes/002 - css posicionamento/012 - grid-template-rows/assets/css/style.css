@@ -1,0 +1,63 @@
+.grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(2, 1fr); 
+  grid-template-rows: repeat(3, auto) 1fr; /* 4 linhas, a última ocupa o restante do espaço */
+  /* grid-template-rows: auto auto auto 1fr; 4 linhas, a última ocupa o restante do espaço */
+  place-items: start; /* Alinha os itens no início */
+}
+
+.titulo {
+  grid-column: 1 / -1; /* Ocupa todas as colunas */
+}
+
+.comprar {
+  grid-column: 2; /* Ocupa a segunda coluna */
+
+}
+
+.foto {
+  grid-column: 1;
+  grid-row: 2 / 5; /* Ocupa da linha 2 até a 5 */
+}
+
+/* Estilos Gerais */
+body {
+  font-family: Arial;
+  margin: 40px;
+}
+
+h1,
+p {
+  margin: 0px;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 1;
+}
+
+p,
+span {
+  font-size: 20px;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.comprar {
+  background: #a8f;
+  color: #103;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+.preco {
+  background: #ddd;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
