@@ -1,0 +1,19 @@
+.flex {
+  display: flex;
+  flex-wrap: wrap; /* Permite que os itens quebrem linha */
+   gap: 20px; /* Espaçamento entre os itens */
+  /* justify-content: center; Alinha os itens no centro do container
+  align-content: center; Alinha o conteúdo no centro do container */
+  place-content: center; /* Esse é o justify-content + align-content */;
+  height: 100vh; /* Altura total da viewport */
+}
+body {
+  margin: 0px;
+}
+
+h2 {
+  background: #e7e7e7;
+  border: 1px solid #d7d7d7;
+  padding: 20px;
+  margin: 0px;
+}
