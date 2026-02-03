@@ -1,0 +1,26 @@
+a {
+  text-decoration: none;
+  color: white;
+  background: darkblue;
+  display: inline-block;
+}
+
+p {
+  background: lightblue;
+}
+
+.pixel {
+  font-size: 24px;
+  padding: 16px 32px;
+}
+
+.rem {
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+}
+
+html {
+  font-size: 16px; /* nada muda pois o padrão já é 16px */
+  /* font-size: 32px; dobra o tamanho padrão de 16px */
+  /* font-size: 200%; dobra o tamanho padrão, ou seja, 32px */
+}
