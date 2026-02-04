@@ -1,0 +1,12 @@
+body {
+  margin: 0px;
+}
+
+div {
+  height: 40px;
+  background: lightblue;
+  width: 100vw; /* 100% da largura da viewport */
+  /* width: 50vw;  50% da largura da viewport */
+  height: 100vh; /* 100% da altura da viewport */
+
+}
