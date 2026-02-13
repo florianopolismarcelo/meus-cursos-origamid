@@ -1,0 +1,34 @@
+/* 053 - Pseudo Elements */
+
+li::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: linear-gradient(#caf, #fff);
+  border: 2px solid #caf;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.lista-1 li:first-child {
+  background: #caf;
+}
+
+.lista-1 li:last-child {
+  background: #cfa;
+  /* background: #cfa  !important; */
+}
+
+.lista-1 li:nth-child(3) 
+/* .lista-2 li:nth-child(2)
+.lista-2 li:nth-child(odd){ */{
+  background: aqua;
+}
+
+.lista-2 li:nth-child(even) 
+/* .lista-2 li:nth-child(3n)
+.lista-2 li:nth-child(odd){ */{
+  background: aqua;
+}
+
