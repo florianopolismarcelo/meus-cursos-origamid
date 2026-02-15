@@ -1,0 +1,26 @@
+/* 053 - Pseudo Elements */
+h1 {
+  position: relative;
+}
+
+h1::before {
+  content: ""; /* conteudo do elemento */
+  /* display: inline-block; */
+  display: block;
+  width: 40px;
+  height: 8px;
+  background:  #caf;
+  position: absolute;
+  top: 20px;
+  z-index: -1; /* Coloca o elemento atras do texto */
+  /* margin-right: 10px; */
+}
+
+/* h1::after {
+  content: ""; 
+  display: block;
+  width: 40px;
+  height: 8px;
+  background:  #caf;
+} */
+
